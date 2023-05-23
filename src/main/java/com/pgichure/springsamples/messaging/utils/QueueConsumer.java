@@ -6,7 +6,7 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 import lombok.Slf4j;
 
-@Slf4j;
+@Slf4j
 @Component
 public class QueueConsumer{
 
