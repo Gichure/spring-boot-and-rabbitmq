@@ -11,8 +11,8 @@
 	<groupId>com.pgichure.springsamples</groupId>
 	<artifactId>rabbitmq-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RabbitMQ Sample/name>
-	<description>Demo project for Spring Boot & RabbitMQ</description>
+	<name>RabbitMQ Sample</name>
+	<description>Demo project for Spring Boot and RabbitMQ</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
