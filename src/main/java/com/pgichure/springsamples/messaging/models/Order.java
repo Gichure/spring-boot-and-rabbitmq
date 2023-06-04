@@ -1,19 +1,27 @@
 package com.pgichure.springsamples.messaging.models;
 
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.List;
+
+import lombok.Builder;
+import lombok.Data;
 
 @Data
 @Builder
 public class Order implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
-    private List<String> items;
+	private List<String> items;
 
     public BigDecimal cost;
 
-    @override
+    @Override
     public String toString(){
-
-        return this.items.concat("\n").concat(this.cost);
-
+        return "All items - ".concat(String.valueOf(items.size())).concat("shall costs ").concat(String.valueOf(this.cost));
     }
 
 }
